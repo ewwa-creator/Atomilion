@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pole_logowania_pusty"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+    /*zmienić tło oraz dodać przyciski nie mam assetów :-( */
+
+
+    <Button
+        android:id="@+id/zaloguj"
+        android:layout_width="304dp"
+        android:layout_height="58dp"
+        android:background=""
+        android:text="ZALOGUJ"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+    <Button
+        android:id="@+id/Gramy"
+        android:layout_width="304dp"
+        android:layout_height="58dp"
+        android:background=""
+        android:text="Gramy"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <Button
+        android:id="@+id/autorzy"
+        android:layout_width="304dp"
+        android:layout_height="58dp"
+        android:background=""
+        android:text="autorzy"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="449dp" />
+
+    <Button
+        android:id="@+id/Lista_winików"
+        android:layout_width="304dp"
+        android:layout_height="58dp"
+        android:background=""
+        android:text="Lista wyników"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="532dp" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
