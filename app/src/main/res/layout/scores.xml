@@ -21,7 +21,6 @@
         android:id="@+id/Lista_winików"
         android:layout_width="304dp"
         android:layout_height="58dp"
-        android:background=""
         android:text="Lista wyników"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="53dp"
