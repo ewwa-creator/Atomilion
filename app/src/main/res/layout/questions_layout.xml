@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="@string/total_questions"
+        android:text="Pytanie nr "
         android:textColor="@color/white"
         android:textSize="30sp" />
 
@@ -41,40 +41,40 @@
 
 
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/Ans_A"
-        android:layout_margin="5dp"
-        android:background="@color/white"
-        android:text="@string/ans_a"
-        android:textColor="@color/black"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Ans_A"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:text="ans_a"
+            android:textColor="@color/black"/>
 
-    <Button
+        <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/Ans_B"
             android:layout_margin="5dp"
             android:background="@color/white"
-            android:text="@string/ans_b"
+            android:text="ans_b"
             android:textColor="@color/black"/>
 
-    <Button
+        <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/Ans_C"
             android:layout_margin="5dp"
             android:background="@color/white"
-            android:text="@string/ans_c"
+            android:text="ans_c"
             android:textColor="@color/black"/>
 
-    <Button
+        <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/Ans_D"
             android:layout_margin="5dp"
             android:background="@color/white"
-            android:text="@string/ans_d"
+            android:text="ans_d"
             android:textColor="@color/black"/>
     </LinearLayout>
 
@@ -84,7 +84,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/choices_layout"
         android:layout_marginTop="40dp"
-        android:text="@string/zatwierd"
+        android:text="zatwierdz"
         tools:ignore="TextContrastCheck" />
 
 </RelativeLayout>
