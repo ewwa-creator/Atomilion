@@ -6,53 +6,82 @@
     android:layout_height="match_parent"
     tools:ignore="ExtraText">
 
+    /*zmienić tło oraz dodać przyciski nie mam assetów :-( */
+
+
     <ImageView
         android:id="@+id/background"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/pole_logowania_pusty"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp"
-        tools:ignore="MissingConstraints" />
-    /*zmienić tło oraz dodać przyciski nie mam assetów :-( */
-
+        tools:layout_editor_absoluteY="0dp" />
 
     <Button
         android:id="@+id/zaloguj"
-        android:layout_width="304dp"
-        android:layout_height="58dp"
-        android:text="ZALOGUJ"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="368dp" />
-
-    <Button
-        android:id="@+id/Gramy"
-        android:layout_width="304dp"
-        android:layout_height="58dp"
-        android:text="Gramy"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="286dp" />
+        android:layout_width="307dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="368dp"
+        android:layout_marginEnd="8dp"
+        android:padding="5dp"
+        android:text="Zaloguj"
+        android:textColor="#FFCD00"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/autorzy"
-        android:layout_width="304dp"
-        android:layout_height="58dp"
+        android:layout_width="307dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="452dp"
+        android:layout_marginEnd="8dp"
+        android:padding="5dp"
         android:text="autorzy"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="449dp" />
+        android:textColor="#FFCD00"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/Lista_winików"
-        android:layout_width="304dp"
-        android:layout_height="58dp"
+        android:layout_width="307dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="536dp"
+        android:layout_marginEnd="8dp"
+        android:padding="5dp"
         android:text="Lista wyników"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="532dp" />
+        android:textColor="#FFCD00"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/Gramy"
+        android:layout_width="307dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="8dp"
+        android:padding="5dp"
+        android:text="Gramy"
+        android:textColor="#FFCD00"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

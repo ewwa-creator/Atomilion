@@ -16,49 +16,90 @@
         tools:ignore="MissingConstraints" />
     /*zmienić tło oraz dodać przyciski nie mam assetów :-( */
 
+
     <Button
         android:id="@+id/A"
-        android:layout_width="304dp"
-        android:layout_height="58dp"
+        android:layout_width="307dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="404dp"
+        android:layout_marginEnd="8dp"
+        android:padding="5dp"
         android:text="A"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="401dp" />
-
+        android:textColor="#FFCD00"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/B"
-        android:layout_width="304dp"
-        android:layout_height="58dp"
+        android:layout_width="307dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="476dp"
+        android:layout_marginEnd="8dp"
+        android:padding="5dp"
         android:text="B"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="483dp" />
+        android:textColor="#FFCD00"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/C"
-        android:layout_width="304dp"
-        android:layout_height="58dp"
+        android:layout_width="307dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="548dp"
+        android:layout_marginEnd="8dp"
+        android:padding="5dp"
         android:text="C"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="559dp" />
+        android:textColor="#FFCD00"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/D"
-        android:layout_width="304dp"
-        android:layout_height="58dp"
+        android:layout_width="307dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginEnd="8dp"
+        android:padding="5dp"
         android:text="D"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="638dp" />
+        android:textColor="#FFCD00"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/Pytanie"
-        android:layout_width="304dp"
-        android:layout_height="176dp"
-        android:text="Pytanie"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="193dp" />
+        android:layout_width="307dp"
+        android:layout_height="226dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="8dp"
+        android:padding="5dp"
+        android:text="Do czego służy łyżka"
+        android:textColor="#FFCD00"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
