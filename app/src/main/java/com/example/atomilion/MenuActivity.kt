@@ -1,7 +1,9 @@
 package com.example.atomilion
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 
 class MenuActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -9,5 +11,11 @@ class MenuActivity : AppCompatActivity() {
         setContentView(R.layout.activity_menu)
 
         supportActionBar?.hide()
+
+        val button = findViewById<Button>(R.id.Gramy)
+        button.setOnClickListener() {
+            val intent = Intent(this, GameActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
