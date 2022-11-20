@@ -1,35 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/tlo_pytan"
     android:padding="24dp"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:ignore="UsingOnClickInXml">
 
     <TextView
-        android:id="@+id/total_question"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/count_label"
+        android:text="@string/count_label"
         android:layout_centerHorizontal="true"
-        android:text="Pytanie nr "
         android:textColor="@color/white"
-        android:textSize="30sp" />
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"/>
 
     <TextView
-        android:id="@+id/question"
+        android:id="@+id/questionLabel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/choices_layout"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
-        android:text="Tu będzie pytanie"
+        android:layout_marginTop="30dp"
+        android:text="@string/question_label"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textSize="24dp"
         android:textStyle="bold" />
 
     <LinearLayout
@@ -39,43 +37,47 @@
         android:layout_centerInParent="true"
         android:orientation="vertical">
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/answerBtn1"
+            android:layout_marginTop="80dp"
+            android:background="@color/white"
+            android:text="@string/btn_answer"
+            android:textColor="@color/white"
+            android:onClick="checkAnswer"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/answerBtn2"
+            android:layout_marginTop="40dp"
+            android:background="@color/white"
+            android:text="@string/btn_answer"
+            android:textColor="@color/white"
+            android:onClick="checkAnswer"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/answerBtn3"
+            android:layout_marginTop="40dp"
+            android:background="@color/white"
+            android:text="@string/btn_answer"
+            android:textColor="@color/white"
+            android:onClick="checkAnswer"/>
 
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/Ans_A"
-            android:layout_margin="5dp"
+            android:id="@+id/answerBtn4"
+            android:layout_marginTop="40dp"
             android:background="@color/white"
-            android:text="ans_a"
-            android:textColor="@color/black"/>
+            android:text="@string/btn_answer"
+            android:textColor="@color/white"
+            android:onClick="checkAnswer"/>
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/Ans_B"
-            android:layout_margin="5dp"
-            android:background="@color/white"
-            android:text="ans_b"
-            android:textColor="@color/black"/>
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/Ans_C"
-            android:layout_margin="5dp"
-            android:background="@color/white"
-            android:text="ans_c"
-            android:textColor="@color/black"/>
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/Ans_D"
-            android:layout_margin="5dp"
-            android:background="@color/white"
-            android:text="ans_d"
-            android:textColor="@color/black"/>
     </LinearLayout>
 
 </RelativeLayout>
