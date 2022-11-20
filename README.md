@@ -23,7 +23,8 @@ sumę uzyskanych punktów.
 
 ## Film Demo
 
-TU BĘDZIE LINK DO FILMU DEMONSTRACYJNEGO
+https://youtu.be/kHZK9yw-1uE
+Zalecamy oglądać z włączonym dźwiękiem
 
 ## Ekrany:
 Obecnie gra bazuje na pięciu ekranach:
