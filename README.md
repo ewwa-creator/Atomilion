@@ -54,6 +54,7 @@ Własna ikona aplikacji
 Grafiki zapasowe.
 
 ## Wireframe: 
+https://miro.com/app/board/uXjVPEr5Xgc=/
 
 ## Mockups: 
 https://www.figma.com/file/TqXkDYbZ6rOK5GJhyW2XD5/Untitled?node-id=0%3A1&t=O4mvrJLQ319ZVSsG-0
