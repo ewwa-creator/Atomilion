@@ -52,3 +52,8 @@ Menu - ekran, w którym można rozpocząć rozgrywkę oraz w przyszłości korzy
 Question - tło, na którym wyświetlają się pytania
 Własna ikona aplikacji
 Grafiki zapasowe.
+
+## Wireframe: 
+
+## Mockups: 
+https://www.figma.com/file/TqXkDYbZ6rOK5GJhyW2XD5/Untitled?node-id=0%3A1&t=O4mvrJLQ319ZVSsG-0
