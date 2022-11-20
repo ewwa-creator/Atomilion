@@ -3,20 +3,19 @@ package com.example.atomilion
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Handler
-import android.os.Looper
+import android.widget.Button
 
-class MainActivity : AppCompatActivity() {
+class MenuActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_menu)
 
         supportActionBar?.hide()
 
-        Handler(Looper.getMainLooper()).postDelayed({
-            val intent = Intent(this, HomeActivity::class.java)
+        val button = findViewById<Button>(R.id.Gramy)
+        button.setOnClickListener() {
+            val intent = Intent(this, GameActivity::class.java)
             startActivity(intent)
-            finish()
-        }, 3000)
+        }
     }
 }

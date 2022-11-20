@@ -36,7 +36,6 @@
         android:id="@+id/zaloguj"
         android:layout_width="137dp"
         android:layout_height="49dp"
-        android:background=""
         android:text="ZALOGUJ"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="137dp"
