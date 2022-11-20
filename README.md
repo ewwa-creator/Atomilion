@@ -34,7 +34,7 @@ Menu
 Game
 Result
 
-# Funkcjonalności:
+## Funkcjonalności:
 Atomilion zawiera 5 funkcjonalności, a mianowicie:
 
 Przełączanie aktywności za pomocą przycisków,
@@ -43,7 +43,7 @@ Losowanie pytań i miejsc odpowiedzi,
 Zapisywanie wyniku na bieżąco podczas gry,
 Alerty z odpowiednim komunikatem, które wyświetlają się po wybraniu odpowiedzi,
 
-# Dedykowane grafiki:
+## Dedykowane grafiki:
 Na potrzeby gry zostały stworzone konkretne grafiki tła związane z klimatem chemicznym:
 
 Splash - ekran ładowania
